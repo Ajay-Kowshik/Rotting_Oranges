@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Rotting_Oranges/static/css/main.2f1e2e39.css",
-    "main.js": "/Rotting_Oranges/static/js/main.b00f59f0.js",
+    "main.css": "/Rotting_Oranges/static/css/main.7f3a353d.css",
+    "main.js": "/Rotting_Oranges/static/js/main.bf14d3d8.js",
     "static/js/453.adefc807.chunk.js": "/Rotting_Oranges/static/js/453.adefc807.chunk.js",
     "static/media/bad_orange.png": "/Rotting_Oranges/static/media/bad_orange.a52cbe90e46c4fef21b1.png",
     "static/media/good_orange.png": "/Rotting_Oranges/static/media/good_orange.24eeefdf1ee0c4405b5e.png",
     "index.html": "/Rotting_Oranges/index.html",
-    "main.2f1e2e39.css.map": "/Rotting_Oranges/static/css/main.2f1e2e39.css.map",
-    "main.b00f59f0.js.map": "/Rotting_Oranges/static/js/main.b00f59f0.js.map",
+    "main.7f3a353d.css.map": "/Rotting_Oranges/static/css/main.7f3a353d.css.map",
+    "main.bf14d3d8.js.map": "/Rotting_Oranges/static/js/main.bf14d3d8.js.map",
     "453.adefc807.chunk.js.map": "/Rotting_Oranges/static/js/453.adefc807.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f1e2e39.css",
-    "static/js/main.b00f59f0.js"
+    "static/css/main.7f3a353d.css",
+    "static/js/main.bf14d3d8.js"
   ]
 }
