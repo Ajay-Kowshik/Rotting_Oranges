@@ -27,11 +27,11 @@ function Forming({handler}) {
     return (
         <div className='form'>
             <div className="inputbox">
-                <input type="text" onChange={clickHandler} className='rows' required="required"/>
+                <input type="number" onChange={clickHandler} className='rows' required="required"/>
                 <span>Rows</span>
             </div>
             <div className="inputbox">
-                <input type="text" onChange={clickHandler} className='columns' required="required"/>
+                <input type="number" onChange={clickHandler} className='columns' required="required"/>
                 <span>Columns</span>
             </div>
             <motion.div whileTap={{scale:0.9}} className="inputbox">
