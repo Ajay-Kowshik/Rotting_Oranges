@@ -1,0 +1,80 @@
+.right{
+    margin-right: 100px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 80px); /* 3 columns with equal width */
+    grid-gap: 10px; /* Adjust the gap between grid items */
+  }
+  
+  .grid-item {
+    position: relative;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .grid-item img{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px; /* Adjust as needed */
+    margin-bottom: 30px;
+  }
+  
+  .radio-buttons input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-buttons .radio-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .radio-buttons input[type="radio"]:checked + .radio-button {
+    background-color: white;
+    color: black;
+  }
+  
+  .calculate-button{
+    background: none;
+    color: white;
+    border: 2px solid #fff;
+    outline: none;
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+  }
+  
+  .calculate-button:hover{
+    background: white;
+    color: black;
+  }

@@ -1,0 +1,30 @@
+.App{
+  height: 100vh;
+}
+
+.title{
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  margin: 0px 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.content{
+  height: calc(100% - 3.3rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.left{
+  width: 40%;
+}
+
+
+
+.spacer {
+  height: 50px; /* Set the constant spacing */
+  flex-shrink: 0; /* Prevent this item from shrinking */
+  flex-grow: 0; /* Prevent this item from growing */
+}
